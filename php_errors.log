@@ -1,0 +1,46 @@
+[22-Mar-2014 08:52:40] PHP Warning:  include(Macros/headerImage.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php on line 12
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'Macros/headerImage.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php on line 12
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:12) in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/authenticate.php on line 2
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:65
+[22-Mar-2014 08:52:40] PHP   3. session_start() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/authenticate.php:2
+[22-Mar-2014 08:52:40] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:12) in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/authenticate.php on line 2
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:65
+[22-Mar-2014 08:52:40] PHP   3. session_start() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/authenticate.php:2
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 9
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 13
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 17
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 21
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 25
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Notice:  Undefined variable: pageStatus in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login_feedback.php on line 28
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:89
+[22-Mar-2014 08:52:40] PHP Warning:  include(Macros/AdminFooter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php on line 99
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
+[22-Mar-2014 08:52:40] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'Macros/AdminFooter.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php on line 99
+[22-Mar-2014 08:52:40] PHP Stack trace:
+[22-Mar-2014 08:52:40] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/login/login.php:0
