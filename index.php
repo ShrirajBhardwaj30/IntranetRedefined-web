@@ -1,1 +1,3 @@
-Welcome 
+<?php
+    header("Location: login/login.php");
+?>
