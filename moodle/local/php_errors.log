@@ -1,0 +1,51 @@
+[25-Mar-2014 12:55:09] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
+[25-Mar-2014 12:55:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Unable to allocate memory for pool. in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php on line 155
+[25-Mar-2014 12:55:10] PHP Stack trace:
+[25-Mar-2014 12:55:10] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/mymedia/mymedia.php:0
+[25-Mar-2014 12:55:10] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/mymedia/mymedia.php:23
+[25-Mar-2014 12:55:10] PHP   3. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/config.php:26
+[25-Mar-2014 12:55:10] PHP   4. initialise_cfg() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setup.php:634
+[25-Mar-2014 12:55:10] PHP   5. get_config() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setuplib.php:731
+[25-Mar-2014 12:55:10] PHP   6. cache::make() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/moodlelib.php:1448
+[25-Mar-2014 12:55:10] PHP   7. cache_factory->create_cache_from_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/loaders.php:174
+[25-Mar-2014 12:55:10] PHP   8. cache_factory->create_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:191
+[25-Mar-2014 12:55:10] PHP   9. cache_factory->create_config_instance() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:397
+[25-Mar-2014 12:55:10] PHP  10. cache_config->load() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:365
+[25-Mar-2014 12:55:10] PHP  11. class_exists() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:194
+[25-Mar-2014 12:55:10] PHP  12. core_component::classloader() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:0
+[25-Mar-2014 12:55:10] PHP  13. core_component::init() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php:86
+[25-Mar-2014 13:00:52] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
+[25-Mar-2014 13:00:53] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Unable to allocate memory for pool. in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php on line 155
+[25-Mar-2014 13:00:53] PHP Stack trace:
+[25-Mar-2014 13:00:53] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/kaltura/reports.php:0
+[25-Mar-2014 13:00:53] PHP   2. require() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/kaltura/reports.php:24
+[25-Mar-2014 13:00:53] PHP   3. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/config.php:26
+[25-Mar-2014 13:00:53] PHP   4. initialise_cfg() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setup.php:634
+[25-Mar-2014 13:00:53] PHP   5. get_config() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setuplib.php:731
+[25-Mar-2014 13:00:53] PHP   6. cache::make() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/moodlelib.php:1448
+[25-Mar-2014 13:00:53] PHP   7. cache_factory->create_cache_from_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/loaders.php:174
+[25-Mar-2014 13:00:53] PHP   8. cache_factory->create_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:191
+[25-Mar-2014 13:00:53] PHP   9. cache_factory->create_config_instance() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:397
+[25-Mar-2014 13:00:53] PHP  10. cache_config->load() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:365
+[25-Mar-2014 13:00:53] PHP  11. class_exists() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:194
+[25-Mar-2014 13:00:53] PHP  12. core_component::classloader() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:0
+[25-Mar-2014 13:00:53] PHP  13. core_component::init() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php:86
+[25-Mar-2014 13:01:12] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
+[25-Mar-2014 13:01:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Unable to allocate memory for pool. in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php on line 155
+[25-Mar-2014 13:01:14] PHP Stack trace:
+[25-Mar-2014 13:01:14] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/mymedia/mymedia.php:0
+[25-Mar-2014 13:01:14] PHP   2. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/local/mymedia/mymedia.php:23
+[25-Mar-2014 13:01:14] PHP   3. require_once() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/config.php:26
+[25-Mar-2014 13:01:14] PHP   4. initialise_cfg() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setup.php:634
+[25-Mar-2014 13:01:14] PHP   5. get_config() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/setuplib.php:731
+[25-Mar-2014 13:01:14] PHP   6. cache::make() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/moodlelib.php:1448
+[25-Mar-2014 13:01:14] PHP   7. cache_factory->create_cache_from_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/loaders.php:174
+[25-Mar-2014 13:01:14] PHP   8. cache_factory->create_definition() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:191
+[25-Mar-2014 13:01:14] PHP   9. cache_factory->create_config_instance() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:397
+[25-Mar-2014 13:01:14] PHP  10. cache_config->load() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/factory.php:365
+[25-Mar-2014 13:01:14] PHP  11. class_exists() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:194
+[25-Mar-2014 13:01:14] PHP  12. core_component::classloader() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/cache/classes/config.php:0
+[25-Mar-2014 13:01:14] PHP  13. core_component::init() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/moodle/lib/classes/component.php:86
+[25-Mar-2014 22:20:45] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
+[25-Mar-2014 22:21:32] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
+[25-Mar-2014 22:23:35] PHP Warning:  Unknown: Unable to allocate memory for pool. in Unknown on line 0
