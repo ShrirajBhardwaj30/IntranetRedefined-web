@@ -2452,9 +2452,7 @@ a.elgg-widget-collapsed:before {
 	padding: 4px 8px;
 	border-radius: 3px;
 }
-.elgg-icon-bookmark {
-	background: transparent url(http://intranetredefined-web-c9-kunal15595.c9.io/social/mod/bookmarks/graphics/bookmark.gif);
-}
+
 .categories li label {
 	font-size: 100%;
 	line-height: 1.2em;

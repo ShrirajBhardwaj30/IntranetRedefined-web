@@ -9,8 +9,8 @@ $type = $vars['type'];
 
 //set the url
 $url = elgg_get_site_url() . "admin/site/expages?type=";
- 
-$pages = array('about', 'terms', 'privacy');
+ $pages = array();
+$pages = array('about', 'terms', 'privacy', 'custom');
 $tabs = array();
 foreach ($pages as $page) {
 	$tabs[] = array(

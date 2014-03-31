@@ -11,6 +11,7 @@ function expages_init() {
 	elgg_register_page_handler('about', 'expages_page_handler');
 	elgg_register_page_handler('terms', 'expages_page_handler');
 	elgg_register_page_handler('privacy', 'expages_page_handler');
+	elgg_register_page_handler('custom', 'expages_page_handler');
 	elgg_register_page_handler('expages', 'expages_page_handler');
 
 	// Register public external pages
@@ -32,7 +33,8 @@ function expages_init() {
  *
  */
 function expages_public($hook, $handler, $return, $params){
-	$pages = array('about', 'terms', 'privacy');
+    // $pages = array();
+	$pages = array('about', 'terms', 'privacy', 'custom');
 	return array_merge($pages, $return);
 }
 
@@ -40,7 +42,9 @@ function expages_public($hook, $handler, $return, $params){
  * Setup the links to site pages
  */
 function expages_setup_footer_menu() {
-	$pages = array('about', 'terms', 'privacy');
+    // $pages = array();
+	
+	$pages = array('about', 'terms', 'privacy', 'custom');
 	foreach ($pages as $page) {
 		$url = "$page";
 		$wg_item = new ElggMenuItem($page, elgg_echo("expages:$page"), $url);

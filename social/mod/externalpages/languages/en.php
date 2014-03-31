@@ -13,6 +13,7 @@ return array(
 	'expages:about' => "About",
 	'expages:terms' => "Terms",
 	'expages:privacy' => "Privacy",
+	'expages:faq' => "Faq",
 	'expages:contact' => "Contact",
 
 	'expages:notset' => "This page has not been set up yet.",
