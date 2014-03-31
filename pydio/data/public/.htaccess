@@ -1,0 +1,4 @@
+ErrorDocument 404 http://intranetredefined-web-c9-kunal15595.c9.io:443/pydio/data/public/404.html
+<Files ".ajxp_*">
+deny from all
+</Files>

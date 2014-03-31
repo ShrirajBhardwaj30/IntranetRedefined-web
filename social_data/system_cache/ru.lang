@@ -1,0 +1,37 @@
+a:7:{s:10:"customtabs";s:41:"Настраиваемые вкладки";s:15:"customtabs:tab1";s:16:"Вкладка 1";s:15:"customtabs:tab2";s:16:"Вкладка 2";s:15:"customtabs:tab3";s:16:"Вкладка 3";s:20:"customtabs:tab1:code";s:610:"<center>
+<strong>Откройте файл</strong><br>
+<code>elgg/mod/customtabs/views/default/tab1.php</code>
+<br><br>
+<strong>И отредактируйте там все</strong><br><br>
+
+<strong>Если хотите изменить название Вкладки<br>
+То откройте файл</strong><br>
+<code>elgg\mod\customtabs\languagesu.php</code><br><br>
+<strong>И отредактируйте эту строку</strong><br>
+<code>'customtabs:tab1' => 'Вкладка 1',</code><br><br>
+напр., <code>'customtabs:tab1' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
+</center>";s:20:"customtabs:tab2:code";s:610:"<center>
+<strong>Откройте файл</strong><br>
+<code>elgg/mod/customtabs/views/default/tab2.php</code>
+<br><br>
+<strong>И отредактируйте там все</strong><br><br>
+
+<strong>Если хотите изменить название Вкладки<br>
+То откройте файл</strong><br>
+<code>elgg\mod\customtabs\languagesu.php</code><br><br>
+<strong>И отредактируйте эту строку</strong><br>
+<code>'customtabs:tab2' => 'Вкладка 2',</code><br><br>
+напр., <code>'customtabs:tab2' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
+</center>";s:20:"customtabs:tab3:code";s:610:"<center>
+<strong>Откройте файл</strong><br>
+<code>elgg/mod/customtabs/views/default/tab3.php</code>
+<br><br>
+<strong>И отредактируйте там все</strong><br><br>
+
+<strong>Если хотите изменить название Вкладки<br>
+То откройте файл</strong><br>
+<code>elgg\mod\customtabs\languagesu.php</code><br><br>
+<strong>И отредактируйте эту строку</strong><br>
+<code>'customtabs:tab3' => 'Вкладка 3',</code><br><br>
+напр., <code>'customtabs:tab3' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
+</center>";}

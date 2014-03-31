@@ -1,0 +1,6 @@
+03-30-14 15:03:47	127.13.169.129	ERROR	shared	dibi.compact.php	error l.846	message=Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+03-30-14 15:04:19	127.13.169.129	ERROR	shared	dibi.compact.php	error l.848	message=Access denied for user 'admin'@'127.13.169.129' to database 'pydio'
+03-30-14 15:04:31	127.13.169.129	ERROR	shared	dibi.compact.php	error l.848	message=Access denied for user 'admin'@'127.13.169.129' to database 'pydio'
+03-30-14 15:04:47	127.13.169.129	ERROR	shared	dibi.compact.php	error l.848	message=Access denied for user 'admin'@'127.13.169.129' to database 'pydio'
+03-30-14 15:17:11	127.13.169.129	INFO	shared	AuthService	Create User	user_id=admin
+03-30-14 15:17:11	127.13.169.129	INFO	shared	AuthService	Create User	user_id=user1

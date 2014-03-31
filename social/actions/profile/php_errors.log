@@ -1,0 +1,3 @@
+[28-Mar-2014 04:37:54] PHP Fatal error:  Call to undefined function get_input() in /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/social/actions/profile/fields/edit.php on line 6
+[28-Mar-2014 04:37:54] PHP Stack trace:
+[28-Mar-2014 04:37:54] PHP   1. {main}() /var/lib/stickshift/532a3aeb5973cab6da00059b/app-root/data/806574/social/actions/profile/fields/edit.php:0
