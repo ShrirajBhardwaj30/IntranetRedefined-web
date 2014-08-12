@@ -1,35 +1,15 @@
-<<<<<<< HEAD
 
-    ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Intranet Redefined for IIT Guwahati
+========================================
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-    
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-=======
-IntranetRedefined-web
-=====================
-
-Our own Intranet
->>>>>>> ebf98518930055747c5083be2d21683afd075b21
+It proposes various features which should be a part of the Intranet, IIT Guwahati.
+Contains its own : 
+1. File-server
+-------------
+Keep your files on the server and send only links while mailing inside the campus. This helps to cut-down     webmail-space requirements. Also your files are accessible anywhere in the campus, thereby providing a pen-drive-free      environment.
+2. Social-Networking Platform 
+-------------
+ keep a view on what activities are going on in the campus and communicate efficiently.
+3. Academic Platform 
+-------------
+ Keep all academic related to a course collectively allowing easy access
